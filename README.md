@@ -1,17 +1,17 @@
-# 🚢 PickSpot API
+#  PickSpot API
 
 A simple Spring Boot project that selects an appropriate yard slot for a shipping container based on its size and cold-storage needs.
 
 ---
 
-## 📦 Features
+##  Features
 
 - Accepts container details and yard map via a POST request
 - Filters and selects the most appropriate available slot
 - Returns the selected slot position or an error if no slot is found
 - Built using:
     - Spring Boot
-    - Functional Endpoints (`RouterFunction`)
+    - Rest Controller 
     - Gson for JSON processing
     - Lombok for cleaner model classes
 
@@ -27,13 +27,13 @@ A simple Spring Boot project that selects an appropriate yard slot for a shippin
 
 ---
 
-## 🔧 How to Run
+##  How to Run
 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/pickspot-api.git
-   cd pickspot-api
+   https://github.com/Dhiraj706Sardar/PickSpotApp.git
+   cd PickSpotApp
 
 2. **Build the project**
 
@@ -49,7 +49,7 @@ A simple Spring Boot project that selects an appropriate yard slot for a shippin
 
    You can use tools like Postman or curl to test the API.
 
-   ### ✅ Case 1: Successful Slot Allocation
+   ###  Case 1: Successful Slot Allocation
 
    ```json
    {
@@ -75,7 +75,7 @@ A simple Spring Boot project that selects an appropriate yard slot for a shippin
        "targetY": 2
     }
     ```
-   ### ❌ Case 2: No Suitable Slot Found
+   ###  Case 2: No Suitable Slot Found
      
    ```json
    {
