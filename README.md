@@ -17,7 +17,7 @@ A simple Spring Boot project that selects an appropriate yard slot for a shippin
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - Java 17+
 - Spring Boot 3+
